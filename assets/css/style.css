@@ -1,1 +1,48 @@
-style.css
+body {
+	font-family: Roboto;
+	color:#535758;
+}
+
+h2 {
+	font-family: PlayfairDisplay;
+	font-size: 6rem;
+}
+
+nav.navbar_barber {
+	background-color: #121619;
+}
+
+nav a img {
+	width: 100px;
+}
+
+.header_barber {
+	background-image: url(../img/post-image.jpg);
+	background-size: 100%;
+	color: white;
+	text-align: center;
+	height: 100vh;
+	position: relative;
+}
+.header_barber__title {
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);	
+}
+.header_barber__icon {
+	width: 90px;
+	position: absolute;
+	bottom: 1rem;
+}
+.title_blog {
+	padding: 2rem 0 2rem 0;
+}
+.icon_baber {
+	width: 25px;
+	padding: .3rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
